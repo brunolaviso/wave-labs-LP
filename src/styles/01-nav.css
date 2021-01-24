@@ -1,0 +1,47 @@
+.header {
+  width: 100%;
+  height: 100px;
+
+  background-color: #292929;
+
+  display: flex;
+  align-items: center;
+}
+
+.h__itens {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fefefe;
+}
+
+.hi__logo {
+  font-size: 2rem;
+  line-height: 1em;
+
+  display: flex;
+}
+
+.hil__wave {
+  font-weight: 700;
+  margin-right: 8px;
+}
+
+.hil__labs {
+  font-family: 'consolas';
+  color: orange;
+}
+
+.hin__link {
+  text-decoration: none;
+  color: #fefefe;
+  opacity: .9;
+  margin: 0 16px;
+
+  transition-property: opacity;
+  transition-duration: .2s;
+}
+
+.hin__link:hover {
+  opacity: 1;
+}
