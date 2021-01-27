@@ -16,19 +16,21 @@
 }
 
 .hi__logo {
-  font-size: 2rem;
-  line-height: 1em;
-
   display: flex;
+  align-items: baseline;
 }
 
 .hil__wave {
   font-weight: 700;
   margin-right: 8px;
+  font-size: 3rem;
+  line-height: 1em;
 }
 
 .hil__labs {
-  font-family: 'consolas';
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.8rem;
+
   color: orange;
 }
 
@@ -44,4 +46,10 @@
 
 .hin__link:hover {
   opacity: 1;
+}
+
+@media screen and (max-width: 780px) {
+  .hi__nav {
+    display: none;
+  }
 }
